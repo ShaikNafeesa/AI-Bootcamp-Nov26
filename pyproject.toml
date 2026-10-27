@@ -1,0 +1,14 @@
+[project]
+name = "future-with-shivank-ai-bootcamp"
+version = "0.1.0"
+description = "Future with Shivank AI Bootcamp"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+future-with-shivank-ai-bootcamp = "future_with_shivank_ai_bootcamp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
